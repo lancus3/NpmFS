@@ -1,0 +1,11 @@
+
+cat.jpg
+nowy.txt
+package.json
+node_modules
+tekst.rtf
+index.js
+text.txt
+text.rtf
+package-lock.json
+tekst.txt
