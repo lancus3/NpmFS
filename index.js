@@ -5,11 +5,16 @@ var colors = require('colors');
 
 
 
-fs.readdir('.', (err, files) => {
-  files.forEach(files => {
+fs.readdir('.', 'utf-8', function (err, files) {
+  var fileContent = files;
+  var fileList = 'spisPlikow.txt';
 
-    fs.appendFile('nowy.txt', '\n' + files, (err) => {
-        if (err) throw err;
-      });
+
+  fs.writeFile(fileList, '\n'+fileContent, function (err) {
+    if (err) throw err;
+    console.log("The file was succesfully saved!");
   });
 });
+
+
+

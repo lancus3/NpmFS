@@ -1,0 +1,2 @@
+
+.DS_Store,.git,.gitignore,index.js,node_modules,nowy.txt,package-lock.json,package.json,spisPlikow.txt
